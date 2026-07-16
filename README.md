@@ -19,23 +19,31 @@ notes on flashing example projects.
 
 ---
 
-2.  Edge AI Projects
-    [Link_2](https://www.st.com/en/development-tools/stm32n6-ai.html#get-software)
+#### 2. Edge AI Projects
 
-3.  ST provides an official "build an AI application from scratch on the STM32N6570-DK" tutorial that walks through creating an AI project,configuring the software,
-    and deploying a model. It's an excellent companion once you've learned the fundamentals.
+The official Edge AI example projects are available here:
 
-    STM32N6570-DK AI application tutorial :
-    [Link_3](https://community.st.com/stm32-mcus-60/how-to-build-an-ai-application-from-scratch-on-the-stm32n6570-dk-using-stm32cubemx-154895?utm_source=chatgpt.com)
+**Download:** [Link_2](https://www.st.com/en/development-tools/stm32n6-ai.html#get-software)
 
-4.  There's also official support for the board in Edge Impulse if you later want to experiment with end-to-end data collection, model training, and deployment without
-    building the entire pipeline yourself.
+---
 
-    Edge Impulse STM32N6570-DK documentation :
-    [Link_4](https://docs.edgeimpulse.com/hardware/boards/stm32n6570-dk?utm_source=chatgpt.com)
+#### 3. Official AI Application Tutorial
 
-5.  For an overview of the hardware and ST's recommended workflow, this webinar is also useful:
-    [Link_5](https://www.youtube.com/watch?v=u1bDyDm961g)
+ST provides an excellent step-by-step tutorial for building an AI application from scratch on the STM32N6570-DK. It covers:
+
+- Creating a new project
+- Configuring STM32CubeMX
+- Integrating AI models
+- Building and deploying the application
+
+STM32N6570-DK AI application tutorial link : [Link_3](https://community.st.com/stm32-mcus-60/how-to-build-an-ai-application-from-scratch-on-the-stm32n6570-dk-using-stm32cubemx-154895?utm_source=chatgpt.com)
+
+---
+
+### 5. Webinar
+
+For an overview of the hardware and ST's recommended development workflow: [Link_4](https://www.youtube.com/watch?v=u1bDyDm961g)
+
 ---
 
 ## The following software and versions I used:
@@ -53,7 +61,7 @@ notes on flashing example projects.
 
 ### Example Projects (Non-AI)
 
-These Example Projects I have downloaded from [Link_2](#links)
+These Example Projects I have downloaded from [Link_1](#1-example-projects).
 
 
 

@@ -46,7 +46,7 @@ For an overview of the hardware and ST's recommended development workflow: [Link
 
 ---
 
-## The following software and versions I used:
+## The following software and versions I used
 
 | Software              | Version |
 |-----------------------|---------|

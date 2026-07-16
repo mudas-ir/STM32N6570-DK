@@ -10,27 +10,32 @@ notes on flashing example projects.
 
 ### Links
 
-1.  Preloaded Demo programe (STM32N6-OOB) Only hex file is avalable, Example Projects & Demo Projects for Peripherals (STM32CubeN6). 
-    [Download_here](https://www.st.com/en/embedded-software/stm32cuben6.html)
+#### 1. Example Projects 
 
+- The STM32N6570-DK board comes with the **STM32N6-OOB** (Out-of-Box) demo preloaded in the external flash (Only the HEX file is available).
+- Example projects and peripheral demo projects are available in **STM32Cube_FW_N6**.
+
+**Download:** [Link_1](https://www.st.com/en/embedded-software/stm32cuben6.html)
+
+---
 
 2.  Edge AI Projects
-    [Link_2]: [Download_here](https://www.st.com/en/development-tools/stm32n6-ai.html#get-software)
+    [Link_2](https://www.st.com/en/development-tools/stm32n6-ai.html#get-software)
 
 3.  ST provides an official "build an AI application from scratch on the STM32N6570-DK" tutorial that walks through creating an AI project,configuring the software,
     and deploying a model. It's an excellent companion once you've learned the fundamentals.
 
     STM32N6570-DK AI application tutorial :
-    [Link_3]: [here](https://community.st.com/stm32-mcus-60/how-to-build-an-ai-application-from-scratch-on-the-stm32n6570-dk-using-stm32cubemx-154895?utm_source=chatgpt.com)
+    [Link_3](https://community.st.com/stm32-mcus-60/how-to-build-an-ai-application-from-scratch-on-the-stm32n6570-dk-using-stm32cubemx-154895?utm_source=chatgpt.com)
 
 4.  There's also official support for the board in Edge Impulse if you later want to experiment with end-to-end data collection, model training, and deployment without
     building the entire pipeline yourself.
 
     Edge Impulse STM32N6570-DK documentation :
-    [Link_4]: [here](https://docs.edgeimpulse.com/hardware/boards/stm32n6570-dk?utm_source=chatgpt.com)
+    [Link_4](https://docs.edgeimpulse.com/hardware/boards/stm32n6570-dk?utm_source=chatgpt.com)
 
 5.  For an overview of the hardware and ST's recommended workflow, this webinar is also useful:
-    [Link_5]: [here](https://www.youtube.com/watch?v=u1bDyDm961g)
+    [Link_5](https://www.youtube.com/watch?v=u1bDyDm961g)
 ---
 
 ## The following software and versions I used:

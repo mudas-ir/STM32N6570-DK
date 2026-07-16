@@ -58,6 +58,21 @@ For an overview of the hardware and ST's recommended development workflow: [Link
 
 ---
 
+## Boot Modes
+
+The STM32N6 series does not have internal flash memory. To retain firmware after a reboot, program it into the external flash. Alternatively, you can load firmware directly into SRAM (development mode), but note that the program will be lost if the board is powered off in this mode.
+
+Development Mode: used for loading firmware into RAM during a debug session or for programming firmware into external flash.
+
+Boot from Flash: used to boot firmware from external flash.
+
+|                  | STM32N6570-DK                                                                | NUCLEO-N657X0-Q                                                                  |
+| -------------    | -------------                                                                |-----------------                                                                 |
+| Boot from flash  | ![STM32N6570-DK Boot from flash](_htmresc/STM32N6570-DK_Boot_from_flash.png) | ![NUCLEO-N657X0-Q Boot from flash](_htmresc/NUCLEO-N657X0-Q_Boot_from_flash.png) |
+| Development mode | ![STM32N6570-DK Development mode](_htmresc/STM32N6570-DK_Dev_mode.png)       | ![NUCLEO-N657X0-Q Development mode](_htmresc/NUCLEO-N657X0-Q_Dev_mode.png)       |
+
+---
+
 ## How to dump program into External Flash 
 
 ### Example Projects

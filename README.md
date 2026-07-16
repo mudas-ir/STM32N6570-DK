@@ -11,7 +11,8 @@ notes on flashing example projects.
 ### Links
 
 1.  Preloaded Demo programe (STM32N6-OOB) Only hex file is avalable, Example Projects & Demo Projects for Peripherals (STM32CubeN6). 
-    [Link_1]: [Download_here](https://www.st.com/en/embedded-software/stm32cuben6.html#get-software)
+    [Download_here](https://www.st.com/en/embedded-software/stm32cuben6.html)
+
 
 2.  Edge AI Projects
     [Link_2]: [Download_here](https://www.st.com/en/development-tools/stm32n6-ai.html#get-software)
@@ -47,7 +48,8 @@ notes on flashing example projects.
 
 ### Example Projects (Non-AI)
 
-These Example Projects I have downloaded from [Link_1].
+These Example Projects I have downloaded from [Link_2](#links)
+
 
 
 
@@ -149,3 +151,6 @@ Example:
 This README is a collection of notes and instructions gathered while learning the STM32N6570-DK platform. It will be updated as I explore more features, peripherals, 
 and Edge AI applications.
 
+
+
+[def]: https://www.st.com/en/embedded-software/stm32cuben6.html#get-software

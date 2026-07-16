@@ -1,16 +1,20 @@
 # STM32N6570-DK
 
-In this file im writing, so far what i have done in STM32N6570-DK board
-
 ## Getting started with STM32N6570-DK
 
-## Links
+This document summarizes my progress while learning and experimenting with the **STM32N6570-DK** development board. It includes useful resources, software versions, and 
+notes on flashing example projects.
+---
+
+## Resources
+
+### Links
 
 1.  Preloaded Demo programe (STM32N6-OOB) Only hex file is avalable, Example Projects & Demo Projects for Peripherals (STM32CubeN6). 
-    [Link_1]: (https://www.st.com/en/embedded-software/stm32cuben6.html#get-software)
+    [Link_1]:(https://www.st.com/en/embedded-software/stm32cuben6.html#get-software)
 
 2.  Edge AI Projects
-    [Link_2]: (https://www.st.com/en/development-tools/stm32n6-ai.html#get-software).
+    [Link_2]: https://www.st.com/en/development-tools/stm32n6-ai.html#get-software
 
 3.  ST provides an official "build an AI application from scratch on the STM32N6570-DK" tutorial that walks through creating an AI project,configuring the software,
     and deploying a model. It's an excellent companion once you've learned the fundamentals.
@@ -22,10 +26,11 @@ In this file im writing, so far what i have done in STM32N6570-DK board
     building the entire pipeline yourself.
 
     Edge Impulse STM32N6570-DK documentation :
-    https://docs.edgeimpulse.com/hardware/boards/stm32n6570-dk?utm_source=chatgpt.com
+    [Link_4]: https://docs.edgeimpulse.com/hardware/boards/stm32n6570-dk?utm_source=chatgpt.com
 
 5.  For an overview of the hardware and ST's recommended workflow, this webinar is also useful:
-    https://www.youtube.com/watch?v=u1bDyDm961g
+    [Link_5]: https://www.youtube.com/watch?v=u1bDyDm961g
+---
 
 ## The following software and versions I used:
 
@@ -36,18 +41,19 @@ In this file im writing, so far what i have done in STM32N6570-DK board
 | STM32CubeProgrammer   | 2.18.0  |
 | STM32Cube_FW_N6       | 1.4.0   |
 | Edge AI Projects      | 2.1.1   |
-
-## How to Flash the Example Projects into the external flash
-
-These Example Projects i have downloaded from [Link_1].
-
-
-
-# Getting Started with STM32N6570-DK
-
-This document summarizes my progress while learning and experimenting with the **STM32N6570-DK** development board. It includes useful resources, software versions, and notes on flashing example projects.
-
 ---
+
+## How to dump program into External Flash 
+
+### Example Projects (Non-AI)
+
+These Example Projects I have downloaded from [Link_1].
+
+
+
+
+
+
 
 ## Resources
 
@@ -140,5 +146,6 @@ Example:
 
 ## Notes
 
-This README is a collection of notes and instructions gathered while learning the STM32N6570-DK platform. It will be updated as I explore more features, peripherals, and Edge AI applications.
+This README is a collection of notes and instructions gathered while learning the STM32N6570-DK platform. It will be updated as I explore more features, peripherals, 
+and Edge AI applications.
 

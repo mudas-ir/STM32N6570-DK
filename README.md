@@ -7,7 +7,7 @@ In this file im writing, so far what i have done in STM32N6570-DK board
 ## Links
 
 1.  Preloaded Demo programe (STM32N6-OOB) Only hex file is avalable, Example Projects & Demo Projects for Peripherals 
-    (STM32CubeN6) are [Link1](https://www.st.com/en/embedded-software/stm32cuben6.html#get-software).
+    (STM32CubeN6) are [Link_1](https://www.st.com/en/embedded-software/stm32cuben6.html#get-software).
 
 2.  Edge AI Projects are [here](https://www.st.com/en/development-tools/stm32n6-ai.html#get-software).
 
@@ -36,5 +36,5 @@ In this file im writing, so far what i have done in STM32N6570-DK board
 
 ## How to Flash the Example Projects into the external flash
 
-These Example Projects i have downloaded from [Link1]
+These Example Projects i have downloaded from [Link_1]
 

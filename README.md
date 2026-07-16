@@ -6,16 +6,17 @@ In this file im writing, so far what i have done in STM32N6570-DK board
 
 ## Links
 
-1.  Preloaded Demo programe (STM32N6-OOB) Only hex file is avalable, Example Projects & Demo Projects for Peripherals 
-    (STM32CubeN6) are [Link_1](https://www.st.com/en/embedded-software/stm32cuben6.html#get-software).
+1.  Preloaded Demo programe (STM32N6-OOB) Only hex file is avalable, Example Projects & Demo Projects for Peripherals (STM32CubeN6). 
+    [Link_1]: (https://www.st.com/en/embedded-software/stm32cuben6.html#get-software)
 
-2.  Edge AI Projects are [here](https://www.st.com/en/development-tools/stm32n6-ai.html#get-software).
+2.  Edge AI Projects
+    [Link_2]: (https://www.st.com/en/development-tools/stm32n6-ai.html#get-software).
 
 3.  ST provides an official "build an AI application from scratch on the STM32N6570-DK" tutorial that walks through creating an AI project,configuring the software,
     and deploying a model. It's an excellent companion once you've learned the fundamentals.
 
     STM32N6570-DK AI application tutorial :
-    https://community.st.com/stm32-mcus-60/how-to-build-an-ai-application-from-scratch-on-the-stm32n6570-dk-using-stm32cubemx-154895?utm_source=chatgpt.com
+    [Link_3]: https://community.st.com/stm32-mcus-60/how-to-build-an-ai-application-from-scratch-on-the-stm32n6570-dk-using-stm32cubemx-154895?utm_source=chatgpt.com
 
 4.  There's also official support for the board in Edge Impulse if you later want to experiment with end-to-end data collection, model training, and deployment without
     building the entire pipeline yourself.
@@ -38,7 +39,7 @@ In this file im writing, so far what i have done in STM32N6570-DK board
 
 ## How to Flash the Example Projects into the external flash
 
-These Example Projects i have downloaded from [Link_1]
+These Example Projects i have downloaded from [Link_1].
 
 
 
@@ -140,3 +141,4 @@ Example:
 ## Notes
 
 This README is a collection of notes and instructions gathered while learning the STM32N6570-DK platform. It will be updated as I explore more features, peripherals, and Edge AI applications.
+

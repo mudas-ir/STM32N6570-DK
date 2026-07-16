@@ -28,11 +28,13 @@ In this file im writing, so far what i have done in STM32N6570-DK board
 
 ## The following software and versions I used:
 
-1.  STM32CubeIDE:           Version 1.17.0
-2.  STM32CubeMX:            Version 6.17.0
-3.  STM32CubeProgrammer:    Version 2.18.0
-4.  STM32Cube_FW_N6:        Version 1.4.0
-5.  Edge AI Projects        Version 2.1.1
+| Software              | Version |
+|-----------------------|---------|
+| STM32CubeIDE          | 1.17.0  |
+| STM32CubeMX           | 6.17.0  |
+| STM32CubeProgrammer   | 2.18.0  |
+| STM32Cube_FW_N6       | 1.4.0   |
+| Edge AI Projects      | 2.1.1   |
 
 ## How to Flash the Example Projects into the external flash
 
@@ -106,13 +108,13 @@ https://www.youtube.com/watch?v=u1bDyDm961g
 
 The following software versions were used during development:
 
-| Software | Version |
-|----------|---------|
-| STM32CubeIDE | 1.17.0 |
-| STM32CubeMX | 6.17.0 |
-| STM32CubeProgrammer | 2.18.0 |
-| STM32Cube_FW_N6 | 1.4.0 |
-| Edge AI Projects | 2.1.1 |
+| Software              | Version |
+|-----------------------|---------|
+| STM32CubeIDE          | 1.17.0  |
+| STM32CubeMX           | 6.17.0  |
+| STM32CubeProgrammer   | 2.18.0  |
+| STM32Cube_FW_N6       | 1.4.0   |
+| Edge AI Projects      | 2.1.1   |
 
 ---
 

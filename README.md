@@ -11,7 +11,7 @@ notes on flashing example projects.
 ### Links
 
 1.  Preloaded Demo programe (STM32N6-OOB) Only hex file is avalable, Example Projects & Demo Projects for Peripherals (STM32CubeN6). 
-    [Link_1]:(https://www.st.com/en/embedded-software/stm32cuben6.html#get-software)
+    [Link_1]:[here](https://www.st.com/en/embedded-software/stm32cuben6.html#get-software)
 
 2.  Edge AI Projects
     [Link_2]: https://www.st.com/en/development-tools/stm32n6-ai.html#get-software

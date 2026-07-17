@@ -92,9 +92,17 @@ This section describes how to program the example projects into the external fla
  cd "${ProjDirPath}/Debug" && echo y | "C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeProgrammer\bin\STM32_SigningTool_CLI.exe" -bin "${ProjName}.bin" -nk -of 0x80000000 -t fsbl -o "${ProjName}-Trusted.bin" -hv 2.3 -dump "${ProjName}-Trusted.bin"
  ```
 8. Now we can build the project.
-9. After the build is completed, a `.bin` file is created in the following path `GPIO\GPIO_IOToggle\STM32CubeIDE\FSBL\Debug` by the name `GPIO_IOToggle_FSBL-Trusted.bin`
-10. Open STM32CubeProgrammer
-11. 
+9. After the build is completed, a `.bin` file is created in the following path `GPIO\GPIO_IOToggle\STM32CubeIDE\FSBL\Debug` by the name `GPIO_IOToggle_FSBL-Trusted.bin` this is called signed binary.
+10. We have to flash this signed binary onto the board External Flash.
+11. Open STM32CubeProgrammer
+12. Click External loaders and select `MX66UW1G45G_STM32N6570-DK` this is the name of the External Flash.
+13. Connect the board to your system.
+14. Set the board to [Developement Mode](#boot-modes), and press the reset botton once on the board.
+15. Then click `Connect` on the STM32CubeProgrammer.
+16. Now click Erasing & Programming select the file path of the signed binary, and flash at address `0x70000000`
+17. Then click `Disconnect` on the STM32CubeProgrammer.
+18. Set the board to [Boot from flash Mode](#boot-modes), and press the reset botton once on the board.
+19. You must see the LED1 blinking.
 
 ---
 

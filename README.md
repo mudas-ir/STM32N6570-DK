@@ -106,6 +106,30 @@ This section describes how to program the example projects into the external fla
 
 ---
 
+### Edge-AI Projects
+
+The Edge AI Demo projects were downloaded from [Link_2](#2-edge-ai-projects).
+
+This section describes how to program the Edge AI Demo projects into the external flash memory of the STM32N6570-DK board.
+
+1. Download any one of the demo projects from the above link. As of now i'm going with `GS-n6-ai-object-detection`.
+2. Navigate to the following path `Application\STM32N6570-DK\STM32CubeIDE` and open the project in STM32CubeIDE.
+3. Build the project with the post build command as shown below:
+```
+cd "${ProjDirPath}/Debug" && echo y | "C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeProgrammer\bin\STM32_SigningTool_CLI.exe" -bin "${ProjName}.bin" -nk -t ssbl -hv 2.3 -o "${ProjName}-Project_signed.bin"
+```
+4. Connect the board to system.
+5. Set the board to [developement mode](#boot-modes).
+6. Program `Binary/ai_fsbl.hex` (First Stage Boot Loader).
+7. Program `Binary/STM32N6570-DK_network_data.hex` (network parameters; only required when the network changes).
+8. Program `Application\STM32N6570-DK\STM32CubeIDE\Debug\STM32N6570-DK_GettingStarted_ObjectDetection-Project_signed.bin` (firmware application). at address `0x70100000`.
+9. Set the board to [boot from flash mode](#boot-modes).
+10. Power cycle the board. 
+
+
+
+---
+
 ## Notes
 
 This README is a collection of notes and instructions gathered while learning the STM32N6570-DK platform. It will be updated as I explore more features, peripherals, 
